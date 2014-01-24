@@ -1,0 +1,37 @@
+Marée
+  durée 12h
+
+Important pour le système : 
+  Pleine Mer(PM) -> 
+  PM+3 -> 
+  PM+9 ->
+  manque d'eau dans réserve -> 
+
+NB : 
+  PM+6 = basse mer
+  /!\ au vocabulaire employé
+  niv compét et coeff 60 : pas assez d'eau
+  si le débit restant n'est pas suffisant pour le niveau choisi
+	=> fermeture des vannes
+
+exemple de cas d'explication pour le controle 
+Ennoncé : 
+  "PM+1 coeff 95,stade fermé,mode automatique,niv initiation" jusqu'à PM+15
+
+Réponse : 
+  à PM+1 : vannes fermées, réserve totalement remplie <=> fort coeff
+  de PM+1 à PM+3 : la mer descend => stade et vannes restent fermées
+  à PM+3 : mer en bas du stade => début de la séance, ouverture du stade
+		=> lancement de la vanne omniflot avec lame d'eau faible
+				<=> niv initiation
+  de PM+3 à PM+9 : la mer descend puis remonte mais reste sous le stade
+		la vanne omniflot régule le débit
+		les kayakistes sont sur la rivière
+  à PM+9 : fermeture auto de la vanne omniflot => fin de la séance
+	le réponsable du stade constate le départ des kayakistes
+	puis relance le mode auto => les vannes sont affalées
+	Vidange puis remplissement du bassin
+	la mer monte et recouvre le stade
+  à PM+12 : la mer est au plus haut, les vannes se ferments
+		le stade est toujours fermé
+  de PM+12 à PM+15 : voir "de PM+1 à PM+3"
