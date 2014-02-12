@@ -1,0 +1,23 @@
+communication entre les objets en UML :
+deux éléments : 
+	un lien entre les deux objets communiquant
+	ET une flèche correspondant à un message(appel de fonction) entre les objets
+
+types de flèches :
+	en UML 2.0 il y en as deux
+	flèche pleine : message bloquant l'émetteur en attente de réponse
+	flèche vide (-->) : message asynchrone (l'émetteur poursuit son travail)
+
+mêmes flèches utilisées pour le diagramme de séquence.
+
+Séquence :
+appel d'une méthode : début d'un rectangle sur l'objet cible
+<=> rectangle représente une méthode => pas de flèche arrivant au milieu d'un rectangle
+En cas de méthode en appelant une autre dans un même objet 
+	créer un sous-rectangle.
+
+déduire un diagramme de classe d'un diag de séquence :
+pour chaque intervenant dans diag.séq
+	créer un objet.
+pour chaque appel d'une méthode 
+	créer méthode dans obj approprié
