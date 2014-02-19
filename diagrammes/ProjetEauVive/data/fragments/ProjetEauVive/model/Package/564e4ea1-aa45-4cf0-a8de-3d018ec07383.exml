@@ -2,7 +2,16 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projeteauvive" version="3">
   <DEPS>
     <ID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+    <COMPID name="Maree" mc="Class" uid="4179aa25-ba09-4983-9b30-4b68764af06d"/>
+    <COMPID name="Omniflot" mc="Class" uid="bc57f256-2451-47e2-b139-11e8e3ca8354"/>
+    <COMPID name="Réserve" mc="Class" uid="59cadc17-0df5-48a3-8998-4301055198b6"/>
+    <COMPID name="StockVide" mc="Class" uid="916a5a64-a026-4770-9de2-7d8eaba59931"/>
+    <COMPID name="Système" mc="Class" uid="2ae1ce9a-03d0-4dfd-b3c0-5f41a96a16c7"/>
+    <COMPID name="Séance" mc="Class" uid="92cd2683-a7c6-462f-ae9b-2a72aafbc957"/>
+    <COMPID name="Vanne" mc="Class" uid="48367144-98ff-4b12-a7ae-aee123272522"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="d3950636-0529-471c-84d6-8e27c32003df"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
   </DEPS>
   <OBJECT>
     <ID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
@@ -17,6 +26,154 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Maree" mc="Class" uid="4179aa25-ba09-4983-9b30-4b68764af06d"/>
+        <COMPID name="Réserve" mc="Class" uid="59cadc17-0df5-48a3-8998-4301055198b6"/>
+        <COMPID name="Système" mc="Class" uid="2ae1ce9a-03d0-4dfd-b3c0-5f41a96a16c7"/>
+        <COMPID name="Séance" mc="Class" uid="92cd2683-a7c6-462f-ae9b-2a72aafbc957"/>
+        <COMPID name="Vanne" mc="Class" uid="48367144-98ff-4b12-a7ae-aee123272522"/>
+        <COMPID name="StockVide" mc="Class" uid="916a5a64-a026-4770-9de2-7d8eaba59931"/>
+        <OBJECT>
+          <ID name="TypeSéance" mc="Enumeration" uid="629d6835-7e1b-47b3-a9c5-4a97697b1aa9"/>
+          <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TypeSéance]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedOperation">
+              <OBJECT>
+                <ID name="getNiveau" mc="Operation" uid="2623e756-9895-40b0-9278-7b8d86ccc816"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="Concurrency">false</ATT>
+                  <ATT name="Final">false</ATT>
+                  <ATT name="Passing">MethodOut</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[getNiveau]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="getDébit" mc="Operation" uid="250895ab-5b1d-474f-911e-8f36769776a5"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="Concurrency">false</ATT>
+                  <ATT name="Final">false</ATT>
+                  <ATT name="Passing">MethodOut</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[getDébit]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="getLibellé" mc="Operation" uid="3c9788bd-982e-47ff-8232-97d0e5da0ab8"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="Concurrency">false</ATT>
+                  <ATT name="Final">false</ATT>
+                  <ATT name="Passing">MethodOut</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[getLibellé]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedAttribute">
+              <OBJECT>
+                <ID name="niveau" mc="Attribute" uid="4989e642-de78-4b4e-9a9a-3294f93921b6"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[niveau]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="débit" mc="Attribute" uid="a91b41fb-4d86-4b00-bccd-a4b7ec7f40ec"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[débit]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="libellé" mc="Attribute" uid="24b129ec-e93a-4106-ab8f-8a97150b232a"/>
+                <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[libellé]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Omniflot" mc="Class" uid="bc57f256-2451-47e2-b139-11e8e3ca8354"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="d3950636-0529-471c-84d6-8e27c32003df"/>
       </COMP>
