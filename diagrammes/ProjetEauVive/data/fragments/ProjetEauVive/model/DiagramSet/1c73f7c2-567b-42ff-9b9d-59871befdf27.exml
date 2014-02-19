@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProjetEauVive" version="3">
+  <DEPS>
+    <ID name="ProjetEauVive" mc="DiagramSet" uid="1c73f7c2-567b-42ff-9b9d-59871befdf27"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ProjetEauVive" mc="DiagramSet" uid="1c73f7c2-567b-42ff-9b9d-59871befdf27"/>
+    <PID name="ProjetEauVive" mc="Project" uid="90bc5ebe-b4ff-4277-b068-e4e74399c59e"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[ProjetEauVive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

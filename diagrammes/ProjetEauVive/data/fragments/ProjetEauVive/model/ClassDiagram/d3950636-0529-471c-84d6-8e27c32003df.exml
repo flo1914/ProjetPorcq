@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="overview diagram" version="3">
+  <DEPS>
+    <ID name="overview diagram" mc="ClassDiagram" uid="d3950636-0529-471c-84d6-8e27c32003df"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="overview diagram" mc="ClassDiagram" uid="d3950636-0529-471c-84d6-8e27c32003df"/>
+    <PID name="projeteauvive" mc="Package" uid="564e4ea1-aa45-4cf0-a8de-3d018ec07383"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">10</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO4zAQ/RXL73VDUwpIoQgaVCGyFLW7SPuE3HjaNTh2ZU8v+XucJt2lRY2yEmJf9sn2eM6Z25noapMpsgLrpNGX9IQFlFz1o9H0BVIkUngTJZgv4JIaO2eZEaCkYULyueUZAyHRWOaQo3xloCADja58pzunYTbZvuPyTUnGX4x9/h00oP3o0ZoFWMyJ5pmPpXhulhhz5P7viaslVEnopVK03Y/aO8AH6ARzBXSvhE5dCa7wdyw1FliJbZDfgLuUCxC7YLcbHMOsYZQHT1EhCWwwnt75HLfX4iJgxpcKD4psl+XUFW5BcQTh8zjo2bfCRFaFxWeuuHPVJIgIL06DXthrBaedi1b37CRtnXdFr3UOnbM07ARBKGb13fZseK/NWid8Cuog8ASt1HPaN76VKwlrUnUjam+9aosxCu70wGQL4yT6MRyhbkA1+CWVsFAwJNIVLayOo4hE6lfX3P1mHlu+9ukkPAe7L72wdnt2+yJKvGOqYPALs0f4Nfvyd6h/IjYpjqggHrLk+uft+PnmenA/HI9+PMSfI4wGa/d+VH9E804C3f8S+EoJfB89fvbsj369AQfRgro=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[overview diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
