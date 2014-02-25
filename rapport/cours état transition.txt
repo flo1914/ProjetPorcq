@@ -1,0 +1,18 @@
+Décrit l'état dynamique d'une classe
+
+oval = état
+flèche pleine = transition  //avec condition spécifiée
+passage est considéré comme instantané
+
+état inital (point noir)
+état final (point noir cerclé)
+
+dans un état, on peut faire des opérations 
+distinguées selon le moment de l'opération en 
+	entry :		//opérations "instantanées" cad sans boucles 
+	exit :		//opérations "instantanées" cad sans boucles 
+	on <condition> : 
+	do : //actions effectuées en continu pendant l'état
+
+états peuvents être imbriqués => sous-état cad diagramme d'état dans un état
+dans un état, on peut y spécifier les méthodes et les attributs (avec leur valeur) des éléments de la classe
